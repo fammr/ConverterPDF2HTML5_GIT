@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 2, 2014, 2:46:49 PM
+    Author     : suda
+*/
+body{
+    font-family: Arial;
+    font-size: small;
+}
+
+.version{
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+}
+
+#importFileBtn{
+    background-color:grey;
+    color:white;
+    padding: 5px;
+    width:710px;
+}
+
+#uploadBtn{
+    background-color:#3333ff;
+    color:white;
+    padding: 5px;
+    margin: 10px;    
+    visibility: hidden;
+}
+#advancedChk{
+    margin-left: 10px;
+}
+
+#importFileError{
+    background-color:red;
+    color:white;
+    padding: 5px;   margin-top: 2px;
+    width:710px;    height: 20px;
+    display: none;    
+}
+
+#cancelBtn{
+    background-color: #002EB8;
+    color: antiquewhite;
+    padding: 5px; 
+}
+
+#tryBtn{
+    background-color: darkslategrey;
+    color: antiquewhite;
+    padding: 5px; 
+}
+
+#commonLabel{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#commonPresets{
+    list-style-type: none;
+}
+
+#middleContent{
+    padding: 5px 0px 5px 0px;
+    width:720px;
+    margin-top: 5px;
+    background-color: wheat;
+    border: solid 1px;   
+}
+
+#infoImageContent{
+    width: 300px;
+    display:inline-block;
+}
+
+#presetContent{
+    width: 400px;
+    display: inline-block;
+}
+
+#presetInfoLink{
+    text-align: center;
+    color: brown;
+}
+
+#advancedMenu{
+    padding: 10px;
+    width:700px;
+    margin-top: 5px;
+    background-color:lavender;
+    border: solid 1px;
+    display: none;
+}
+
+#advancedMenu input[type=button]{
+    background-color: aquamarine;
+    border:2px outset;
+    color: darkblue;
+    width: 25px;
+}
+
+#advancedMenu table{
+   border-bottom:solid darkcyan;
+   margin-left: 30px;
+   width: 600px;
+   table-layout: fixed;
+   display: none;
+}
+
+#pageScalingTable input[type=text]{
+    width: 40px;
+}
+
+#advancedMenu label{
+   color:darkblue;
+}
+
+#customRangeTxt{
+    width: 100px;
+    margin-left: 10px;
+}
+
+#htmlConfigure{
+    display: none;
+}
+
+.errorDiv{
+    display: none; 
+}
+
+.errorMsg,.errorDiv{
+    background-color:red;
+    color:white;
+    padding: 3px;
+    box-shadow: 10px 0px 5px #888888;
+}
+
+.prog-border{
+    height: 30px;
+    width: 400px;
+    background: pink;
+    border: 2px solid darkred;
+}
+
+.prog-bar{
+    height: 30px;
+    background: darkred;
+}
+
+.convert-border{
+    height: 30px;
+    width: 400px;
+    background: #CCD6F5;
+    border: 2px solid #000;
+}
+
+.convert-bar{
+    height: 30px;
+    background: #002EB8;
+}
+
+#importFileBtn,#importFileError,#uploadBtn,#middleContent,#advancedMenu,
+.prog-bar,.prog-border,.convert-bar,.convert-border,#cancelBtn,#tryBtn,
+#conversionPanel{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px; 
+}
+
+#conversionPanel{
+    background-color: gainsboro;
+    padding: 5px;
+    width:710px;
+    display: none;
+    border: solid #888888 1px;
+}
+
+#status{
+    width: 450px;
+    padding: 5px;
+    display:inline-block;
+}
+
+#statusLinks{
+    width:200px;
+    display:inline-block;
+}
