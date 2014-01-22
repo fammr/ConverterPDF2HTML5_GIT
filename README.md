@@ -1,11 +1,12 @@
-ConverterPDF2HTML5_GIT
-======================
+IDR Solutions PDF To HTML5 Converter
+====================================
 
-IDR Solutions PDF2HTML5 Offline Converter, You need to have PDF2HTML(IDRSolutions) jar and other dependency jars 
-in order to run the example
+This project enable users to run IDR Solutions PDF2HTML5 Converter locally, 
+and you need to have PDF TO HTML5(IDRSolutions) jar and other dependency jars 
+in order to run the example effectively.
 
 
-TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+LGPL TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
 0. This License Agreement applies to any software library or other program which contains a notice placed 
 by the copyright holder or other authorized party saying it may be distributed under the terms of this 
